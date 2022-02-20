@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CompetitiveProgramming.A/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CompetitiveProgramming.A.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompetitiveProgramming.A.dll": {}
+        }
+      },
+      "CompetitiveProgramming.B/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CompetitiveProgramming.B.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompetitiveProgramming.B.dll": {}
+        }
+      },
+      "CompetitiveProgramming.C/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CompetitiveProgramming.C.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CompetitiveProgramming.C.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompetitiveProgramming.A/1.0.0": {
+      "type": "project",
+      "path": "../CompetitiveProgramming.A/CompetitiveProgramming.A.csproj",
+      "msbuildProject": "../CompetitiveProgramming.A/CompetitiveProgramming.A.csproj"
+    },
+    "CompetitiveProgramming.B/1.0.0": {
+      "type": "project",
+      "path": "../CompetitiveProgramming.B/CompetitiveProgramming.B.csproj",
+      "msbuildProject": "../CompetitiveProgramming.B/CompetitiveProgramming.B.csproj"
+    },
+    "CompetitiveProgramming.C/1.0.0": {
+      "type": "project",
+      "path": "../CompetitiveProgramming.C/CompetitiveProgramming.C.csproj",
+      "msbuildProject": "../CompetitiveProgramming.C/CompetitiveProgramming.C.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CompetitiveProgramming.A >= 1.0.0",
+      "CompetitiveProgramming.B >= 1.0.0",
+      "CompetitiveProgramming.C >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/michael/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming/CompetitiveProgramming.csproj",
+      "projectName": "CompetitiveProgramming",
+      "projectPath": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming/CompetitiveProgramming.csproj",
+      "packagesPath": "/home/michael/.nuget/packages/",
+      "outputPath": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/michael/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.A/CompetitiveProgramming.A.csproj": {
+              "projectPath": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.A/CompetitiveProgramming.A.csproj"
+            },
+            "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.B/CompetitiveProgramming.B.csproj": {
+              "projectPath": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.B/CompetitiveProgramming.B.csproj"
+            },
+            "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.C/CompetitiveProgramming.C.csproj": {
+              "projectPath": "/home/michael/repos/dotnet-playground/CompetitiveProgramming/CompetitiveProgramming.C/CompetitiveProgramming.C.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
